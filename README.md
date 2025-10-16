@@ -14,7 +14,8 @@ Quartus prime
 
 If we enable each J-K flip-flop to toggle based on whether or not all preceding flip-flop outputs (Q) are “high,” we can obtain the same counting sequence as the asynchronous circuit without the ripple effect, since each flip-flop in this circuit will be clocked at exactly the same time:
 
-![image](https://github.com/naavaneetha/SYNCHRONOUS-UP-COUNTER/assets/154305477/d5db3fa0-e413-404c-b80e-b2f39d82e7e8)
+![WhatsApp Image 2025-10-15 at 10 06 01_c6bb109c](https://github.com/user-attachments/assets/31edf7a6-7d7b-443d-8e5d-5053673c3d21)
+
 
 
 ![image](https://github.com/naavaneetha/SYNCHRONOUS-UP-COUNTER/assets/154305477/52cb61eb-d04b-442d-810c-31185a68410b)
@@ -28,19 +29,25 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 **Procedure**
 
-/* write all the steps invloved */
+ 1. Type the program in Quartus software.
+ 2. Compile and run the program.
+ 3. Generate the RTL schematic and save the logic diagram.
+ 4. Create nodes for inputs and outputs to generate the timing diagram
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. 
+ <img width="1918" height="916" alt="Screenshot 2025-10-16 092058" src="https://github.com/user-attachments/assets/e8655393-e6e9-41ca-82a3-861e695e5fea" />
 
-Developed by: RegisterNumber:
+
+Developed by:G.SHAWN RONEL RegisterNumber:25005544
 */
 
 **RTL LOGIC UP COUNTER**
 
 **TIMING DIAGRAM FOR IP COUNTER**
+![WhatsApp Image 2025-10-15 at 10 05 54_4f1d719b](https://github.com/user-attachments/assets/d4066f53-7bf7-402f-8939-6d48e9a2b6f2)
 
 **TRUTH TABLE**
 
 **RESULTS**
+thus the basic logic gates are studied and the truth tables are verified
