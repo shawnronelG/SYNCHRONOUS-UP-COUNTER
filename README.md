@@ -16,10 +16,6 @@ If we enable each J-K flip-flop to toggle based on whether or not all preceding 
 
 ![WhatsApp Image 2025-10-15 at 10 06 01_c6bb109c](https://github.com/user-attachments/assets/31edf7a6-7d7b-443d-8e5d-5053673c3d21)
 
-
-
-![image](https://github.com/naavaneetha/SYNCHRONOUS-UP-COUNTER/assets/154305477/52cb61eb-d04b-442d-810c-31185a68410b)
-
 Each flip-flop in this circuit will be clocked at exactly the same time.
 The result is a four-bit synchronous “up” counter. Each of the higher-order flip-flops are made ready to toggle (both J and K inputs “high”) if the Q outputs of all previous flip-flops are “high.”
 Otherwise, the J and K inputs for that flip-flop will both be “low,” placing it into the “latch” mode where it will maintain its present output state at the next clock pulse.
